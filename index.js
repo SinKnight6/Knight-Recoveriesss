@@ -179,7 +179,7 @@ if (message.content.toLowerCase() === 'buy modded account now'){
   if (message.author.bot) return;
   if(message.channel.type === 'dm'){
     if (!openTickets.has(message.author.id)) {
-      message.author.send('_Reaching out for Knight-Shop team members, please stand by_ <a:Loading:705280596217430019>')
+      message.author.send('_Reaching out for Knight-Shop team members, please stand by_ <a:Newloading:790047698995642429>')
       .then(sentMessage => sentMessage.delete({ timeout: 5000 })
         .catch(error => {
         // Hnadler
@@ -220,7 +220,7 @@ if (message.content.toLowerCase() === 'buy modded account now'){
               const reactions = await msg.awaitReactions(reactionFilter, { max: 1, time: 86400000, errors: ['time'] });
               const choice = reactions.get(ACCEPT) || reactions.get(REJECT);
               if (choice.emoji.id === ACCEPT) {
-                message.author.send('_Staff looking for your query, please stand by_ <a:Loading:705280596217430019>')
+                message.author.send('_Staff looking for your query, please stand by_ <a:Newloading:790047698995642429>')
                 .then(sentMessage => sentMessage.delete({ timeout: 5000 })
                 .catch(error => {
                 // Hnadler
@@ -245,7 +245,7 @@ if (message.content.toLowerCase() === 'buy modded account now'){
                   }));
                   });
                   });
-                  channel.send('_Accepting Users message_ <a:Loading:705280596217430019>')
+                  channel.send('_Accepting Users message_ <a:Newloading:790047698995642429>')
                 .then(sentMessage => sentMessage.delete({ timeout: 5000 })
                 .catch(error => {
                 // Hnadler
@@ -271,7 +271,7 @@ if (message.content.toLowerCase() === 'buy modded account now'){
                 });
                 });
                  await handleCollectors(channel, message); 
-                 message.author.send('_Staff is Ending chat_ <a:Loading:705280596217430019>')
+                 message.author.send('_Staff is Ending chat_ <a:Newloading:790047698995642429>')
                   .then(sentMessage => sentMessage.delete({ timeout: 5000 })
                   .catch(error => {
                   // Hnadler
@@ -296,7 +296,7 @@ if (message.content.toLowerCase() === 'buy modded account now'){
                   }));
                   });
                   });                                                 
-                  channel.send('_Ending chat_ <a:Loading:705280596217430019>')
+                  channel.send('_Ending chat_ <a:Newloading:790047698995642429>')
                   .then(sentMessage => sentMessage.delete({ timeout: 5000 })
                   .catch(error => {
                   // Hnadler
@@ -323,7 +323,7 @@ if (message.content.toLowerCase() === 'buy modded account now'){
               });
                  openTickets.delete(message.author.id);
               } else if (choice.emoji.id === REJECT) {
-                message.author.send('_Staff looking for your query, please stand by_ <a:Loading:705280596217430019>')
+                message.author.send('_Staff looking for your query, please stand by_ <a:Newloading:790047698995642429>')
                 .then(sentMessage => sentMessage.delete({ timeout: 5000 })
                 .catch(error => {
                 // Hnadler
@@ -348,7 +348,7 @@ if (message.content.toLowerCase() === 'buy modded account now'){
                   }));
                   });
                   });
-                  channel.send('_Rejecting Users Message_ <a:Loading:705280596217430019>')
+                  channel.send('_Rejecting Users Message_ <a:Newloading:790047698995642429>')
                   .then(sentMessage => sentMessage.delete({ timeout: 5000 })
                   .catch(error => {
                   // Hnadler
@@ -379,7 +379,7 @@ if (message.content.toLowerCase() === 'buy modded account now'){
               }
           } catch (err) {
               console.log(err);
-              message.author.send('_Staff is taking longer than usual_ <a:Loading:705280596217430019>')
+              message.author.send('_Staff is taking longer than usual_ <a:Newloading:790047698995642429>')
                   .then(sentMessage => sentMessage.delete({ timeout: 5000 })
                   .catch(error => {
                   // Hnadler
@@ -404,7 +404,7 @@ if (message.content.toLowerCase() === 'buy modded account now'){
               }));
               });
               });
-              channel.send('_Automatically Rejecting Users Message_ <a:Loading:705280596217430019>')
+              channel.send('_Automatically Rejecting Users Message_ <a:Newloading:790047698995642429>')
                   .then(sentMessage => sentMessage.delete({ timeout: 5000 })
                   .catch(error => {
                   // Hnadler
@@ -771,7 +771,7 @@ if (message.content.toLowerCase() === 'buy recovery now'){
   if (message.author.bot) return;
   if(message.channel.type === 'dm'){
     if (!openTickets.has(message.author.id)) {
-      message.author.send('_Reaching out for Knight-Shop team members, please stand by_ <a:Loading:705280596217430019>')
+      message.author.send('_Reaching out for Knight-Shop team members, please stand by_ <a:Newloading:790047698995642429>')
       .then(sentMessage => sentMessage.delete({ timeout: 5000 })
         .catch(error => {
         // Hnadler
@@ -812,7 +812,7 @@ if (message.content.toLowerCase() === 'buy recovery now'){
               const reactions = await msg.awaitReactions(reactionFilter, { max: 1, time: 86400000, errors: ['time'] });
               const choice = reactions.get(ACCEPT) || reactions.get(REJECT);
               if (choice.emoji.id === ACCEPT) {
-                message.author.send('_Staff looking for your query, please stand by_ <a:Loading:705280596217430019>')
+                message.author.send('_Staff looking for your query, please stand by_ <a:Newloading:790047698995642429>')
                 .then(sentMessage => sentMessage.delete({ timeout: 5000 })
                 .catch(error => {
                 // Hnadler
@@ -837,7 +837,7 @@ if (message.content.toLowerCase() === 'buy recovery now'){
                   }));
                   });
                   });
-                  channel.send('_Accepting Users message_ <a:Loading:705280596217430019>')
+                  channel.send('_Accepting Users message_ <a:Newloading:790047698995642429>')
                 .then(sentMessage => sentMessage.delete({ timeout: 5000 })
                 .catch(error => {
                 // Hnadler
@@ -863,7 +863,7 @@ if (message.content.toLowerCase() === 'buy recovery now'){
                 });
                 });
                  await handleCollectors(channel, message); 
-                 message.author.send('_Staff is Ending chat_ <a:Loading:705280596217430019>')
+                 message.author.send('_Staff is Ending chat_ <a:Newloading:790047698995642429>')
                   .then(sentMessage => sentMessage.delete({ timeout: 5000 })
                   .catch(error => {
                   // Hnadler
@@ -888,7 +888,7 @@ if (message.content.toLowerCase() === 'buy recovery now'){
                   }));
                   });
                   });                                                 
-                  channel.send('_Ending chat_ <a:Loading:705280596217430019>')
+                  channel.send('_Ending chat_ <a:Newloading:790047698995642429>')
                   .then(sentMessage => sentMessage.delete({ timeout: 5000 })
                   .catch(error => {
                   // Hnadler
@@ -915,7 +915,7 @@ if (message.content.toLowerCase() === 'buy recovery now'){
               });
                  openTickets.delete(message.author.id);
               } else if (choice.emoji.id === REJECT) {
-                message.author.send('_Staff looking for your query, please stand by_ <a:Loading:705280596217430019>')
+                message.author.send('_Staff looking for your query, please stand by_ <a:Newloading:790047698995642429>')
                 .then(sentMessage => sentMessage.delete({ timeout: 5000 })
                 .catch(error => {
                 // Hnadler
@@ -940,7 +940,7 @@ if (message.content.toLowerCase() === 'buy recovery now'){
                   }));
                   });
                   });
-                  channel.send('_Rejecting Users Message_ <a:Loading:705280596217430019>')
+                  channel.send('_Rejecting Users Message_ <a:Newloading:790047698995642429>')
                   .then(sentMessage => sentMessage.delete({ timeout: 5000 })
                   .catch(error => {
                   // Hnadler
@@ -971,7 +971,7 @@ if (message.content.toLowerCase() === 'buy recovery now'){
               }
           } catch (err) {
               console.log(err);
-              message.author.send('_Staff is taking longer than usual_ <a:Loading:705280596217430019>')
+              message.author.send('_Staff is taking longer than usual_ <a:Newloading:790047698995642429>')
                   .then(sentMessage => sentMessage.delete({ timeout: 5000 })
                   .catch(error => {
                   // Hnadler
@@ -996,7 +996,7 @@ if (message.content.toLowerCase() === 'buy recovery now'){
               }));
               });
               });
-              channel.send('_Automatically Rejecting Users Message_ <a:Loading:705280596217430019>')
+              channel.send('_Automatically Rejecting Users Message_ <a:Newloading:790047698995642429>')
                   .then(sentMessage => sentMessage.delete({ timeout: 5000 })
                   .catch(error => {
                   // Hnadler
