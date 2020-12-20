@@ -90,12 +90,13 @@ else if(message.content.toLowerCase() === 'account'){
 // Coammand handler end(not in use atm)
 
 // account commands start
-if (message.channel.id === '784215389583573003')
+/*
+if (message.channel.id === '789337633896923158')
   await message.delete();
+*/
 
-
-if (message.content.toLowerCase() === 'account' && message.channel.id === '784215389583573003'){
-  message.author.send('Bot is typing <a:typing:705296058900545567>')
+if (message.content.toLowerCase() === 'account' && message.channel.id === '789337633896923158'){
+  message.author.send('Bot is typing <a:Typing_:790032798580867084>')
     .then(sentMessage => sentMessage.delete({ timeout: 8000 })
    .catch(error => {
     // Hnadler
@@ -489,7 +490,7 @@ function getAttachmentLinks(attachments) {
 // Break
 if (message.content.toLowerCase() === 'account packages'){
   if(message.channel.type === 'dm'){
-    message.author.send('Bot is typing <a:typing:705296058900545567>')
+    message.author.send('Bot is typing <a:Typing_:790032798580867084>')
       .then(sentMessage => sentMessage.delete({ timeout: 3000 })
      .catch(error => {
       // Hnadler
@@ -689,8 +690,8 @@ If you bought a **Modded Account** please press on this form https://forms.gle/J
 // Payment methods ends
 
 // Reacovery commnads start
-if (message.content.toLowerCase() === 'recovery' && message.channel.id === '784215389583573003'){
-    message.author.send('Bot is typing <a:typing:705296058900545567>')
+if (message.content.toLowerCase() === 'recovery' && message.channel.id === '789337633896923158'){
+    message.author.send('Bot is typing <a:Typing_:790032798580867084>')
     .then(sentMessage => sentMessage.delete({ timeout: 8000 })
     .catch(error => {
     // Hnadler
@@ -726,7 +727,7 @@ if (message.content.toLowerCase() === 'recovery' && message.channel.id === '7842
 // Break
 if (message.content.toLowerCase() === 'recovery process'){
   if(message.channel.type === 'dm'){
-message.author.send('Bot is typing <a:typing:705296058900545567>')
+message.author.send('Bot is typing <a:Typing_:790032798580867084>')
   .then(sentMessage => sentMessage.delete({ timeout: 3000 })
  .catch(error => {
   // Hnadler
@@ -1081,7 +1082,7 @@ function getAttachmentLinks(attachments) {
 // Break
 if (message.content.toLowerCase() === 'recovery packages'){
   if(message.channel.type === 'dm'){
-    message.author.send('Bot is typing <a:typing:705296058900545567>')
+    message.author.send('Bot is typing <a:Typing_:790032798580867084>')
       .then(sentMessage => sentMessage.delete({ timeout: 3000 })
      .catch(error => {
       // Hnadler
