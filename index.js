@@ -489,7 +489,7 @@ function getAttachmentLinks(attachments) {
 }
 // Break
 if (message.content.toLowerCase() === 'account packages'){
-
+  if(message.channel.type === 'dm'){
     message.author.send('Bot is typing <a:Typing_:790032798580867084>')
       .then(sentMessage => sentMessage.delete({ timeout: 3000 })
      .catch(error => {
@@ -568,12 +568,12 @@ message.author.send({embed: embed})
    }));
  });
 });
- 
+ }
 };
 // Break
 
 if (message.content.toLowerCase() === 'impulse troubleshoot'){
-  if(message.channel.type === 'dm'){
+  
   message.channel.send(`Looking for troubleshooting solutions 
 ${message.author} Please stand by`)
     .then(sentMessage => sentMessage.delete({ timeout: 8000 })
@@ -686,7 +686,7 @@ const embed = new Discord.MessageEmbed()
     });
   });
 }
-}
+
 
 // Break
 if (message.content.toLowerCase() === 'debit or credit account') {
