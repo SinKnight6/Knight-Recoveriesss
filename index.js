@@ -493,6 +493,7 @@ function getAttachmentLinks(attachments) {
 
 if (message.content.toLowerCase() === 'account packages'){
   if(message.channel.type === 'dm'){
+  message.channel.send('<a:A_:789930401120124938><a:C_:789930467784130570><a:C_:789930467784130570><a:O_:789935677390979153><a:U_:789935780755013673><a:N_:789947839467225139><a:T_:789935759091695626><a:S_:789935740980953109>')
   message.channel.send(`Looking for packages that are available <a:Newloading:790047698995642429>
 ${message.author} Please stand by`)
     .then(sentMessage => sentMessage.delete({ timeout: 8000 })
@@ -566,9 +567,9 @@ Details:
 \`Price: **Prices Change Depending on What You Ask For.**\``];
 let page = 1;
 const embed = new Discord.MessageEmbed()
-  .setTitle('<a:A_:789930401120124938><a:C_:789930467784130570><a:C_:789930467784130570><a:O_:789935677390979153><a:U_:789935780755013673><a:N_:789947839467225139><a:T_:789935759091695626><a:S_:789935740980953109>','Preact on either ⬅️ or ➡️ to flip between pages.')
+  .setTitle('<a:A_:789930401120124938><a:C_:789930467784130570><a:C_:789930467784130570><a:O_:789935677390979153><a:U_:789935780755013673><a:N_:789947839467225139><a:T_:789935759091695626><a:S_:789935740980953109>')
   .setColor(colors.black)
-  .setFooter(`Page ${page} of ${pages.length}`)
+  .setFooter(`Page ${page} of ${pages.length} || Preact on either ⬅️ or ➡️ to flip between pages.`)
   .setTimestamp()
   .setDescription(pages[page-1])
 
