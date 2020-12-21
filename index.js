@@ -1210,12 +1210,12 @@ Details:
 Details:
 >>> •Need more CASH but not levels or RP?
 Get your  Cash up now!
-\ $10.00 USD  for 400 MILLION MEGA Cash!
+\`$10.00 USD  for 400 MILLION MEGA Cash!
   $15.00 USD  for  700 MILLION ULTRA Cash! 
   $20.00 USD  for  1.2   BILLION INSANE Cash!\``];
 let page = 1;
 const embed = new Discord.MessageEmbed()
-  .setTitle('<a:R_:789935721296691211><a:E_:789935154353274902><a:C_:789930467784130570><a:O_:789935677390979153><a:V_:789947840738230272><a:E_:789935154353274902><a:R_:789935721296691211><a:I_:789935223008788501><a:E_:789935154353274902>')
+  .setTitle('<a:R_:789935721296691211><a:E_:789935154353274902><a:C_:789930467784130570><a:O_:789935677390979153><a:V_:789947840738230272><a:E_:789935154353274902><a:R_:789935721296691211><a:I_:789935223008788501><a:E_:789935154353274902><a:S_:789935740980953109>')
   .setColor(colors.black)
   .setFooter(`Page ${page} of ${pages.length} || react on either ⬅️ or ➡️ to flip between pages.`)
   .setTimestamp()
