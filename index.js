@@ -509,6 +509,7 @@ ${message.author} Please stand by`)
     .then((collected) => {
         message.channel.send(`The collected message was: ${collected.first().content}`);
       })
+      let uEmbed1 = new Discord.MessageEmbed()
       .catch(() => {
         let pages = [`GTA V Social Club Modded Account !
                                 PC VERSION ONLY 
