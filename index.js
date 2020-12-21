@@ -1118,7 +1118,6 @@ let embed = new Discord.MessageEmbed()
 .setColor(colors.blue)
 .setTitle('__**Recovery Options Available**__')
 .addField(`__**STARTER RECOVERY PACK**__
-
 Details:
 >>> **•$300 Million GTA Online Money**
 **•1-120 Levels**
@@ -1130,7 +1129,6 @@ Details:
 •Unlock All Trophies/Heists/Heist Rewards`,
 '```Price: $10.00 USD```')
 .addField(`__**BRONZE RECOVERY PACK**__
-
 Details: 
 >>> **•$600 Million GTA Online Money**
 **•1-250 Levels**
@@ -1144,7 +1142,6 @@ Details:
 •Unlock Bunker Research`,
 '```Price: $15.00 USD```')
 .addField(`__**SILVER RECOVERY PACK**__
-
 Details:
 >>> **•$1 Billion GTA Online Money**
 **•1-420 Levels**
@@ -1160,7 +1157,6 @@ Details:
 •CEO and Bike money clutter`,
 '```Price: $20.00 USD```')
 .addField(`__**GOLD RECOVERY PACK**__
-
 Details:
 >>> **•Any amount of money + Unlimited re-fills**
 **•1-750 Levels**
@@ -1178,7 +1174,6 @@ Details:
 • Unlock DLC & Holiday Content (Full)`,
 '```Price: $25.00 USD```')
 .addField(`__**GTA 5 CASH UP (MONEY ONLY)**__
-
 Details:
 >>> •Need more CASH but not levels or RP?
 Get your  Cash up now!`, 
