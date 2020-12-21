@@ -590,7 +590,6 @@ ${message.author} Please stand by`)
         message.channel.send(`The collected message was: ${collected.first().content}`);
       })
       .catch(() => {
-        let uEmbed1 = new Discord.MessageEmbed()
         let pages = [`**__If you find yourself with an Infinite Loading Screen while trying to load into online, try the following steps__** :
 
 \`Step 1: Load into story mode and inject the menu.
