@@ -511,8 +511,9 @@ ${message.author} Please stand by`)
       })
       .catch(() => {
         let uEmbed1 = new Discord.MessageEmbed()
-        let pages = [`GTA V Social Club Modded Account !
-                                PC VERSION ONLY 
+        let pages = [`
+        GTA V Social Club Modded Account !
+                 PC VERSION ONLY 
 <a:Rightanimated:790106527708217354> Tire 1 <a:Leftanimitedarrow:790106237676552273> 
         
 Details: 
