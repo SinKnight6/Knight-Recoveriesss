@@ -493,7 +493,6 @@ function getAttachmentLinks(attachments) {
 
 if (message.content.toLowerCase() === 'account packages'){
   if(message.channel.type === 'dm'){
-  message.channel.send('<a:A_:789930401120124938><a:C_:789930467784130570><a:C_:789930467784130570><a:O_:789935677390979153><a:U_:789935780755013673><a:N_:789947839467225139><a:T_:789935759091695626><a:S_:789935740980953109>')
   message.channel.send(`Looking for packages that are available <a:Loading:705280596217430019>
 ${message.author} Please stand by`)
     .then(sentMessage => sentMessage.delete({ timeout: 8000 })
@@ -512,7 +511,7 @@ ${message.author} Please stand by`)
       })
       .catch(() => {
         let pages = [`GTA V Social Club Modded Account !
-PC VERSION ONLY 
+                                PC VERSION ONLY 
 <a:Rightanimated:790106527708217354> Tire 1 <a:Leftanimitedarrow:790106237676552273> 
         
 Details: 
@@ -550,6 +549,7 @@ Details:
 `GTA V Social Club Modded Account !
 PC VERSION ONLY 
 <a:Rightanimated:790106527708217354> Tire 5 <a:Leftanimitedarrow:790106237676552273>
+
 Details: 
 >>> •Brand new new account + Gold Recovery Pack.
 •GTA V Game Included!.
@@ -566,8 +566,8 @@ let page = 1;
 const embed = new Discord.MessageEmbed()
   .setTitle('<a:A_:789930401120124938><a:C_:789930467784130570><a:C_:789930467784130570><a:O_:789935677390979153><a:U_:789935780755013673><a:N_:789947839467225139><a:T_:789935759091695626><a:S_:789935740980953109>','Preact on either ⬅️ or ➡️ to flip between pages.')
   .setColor(colors.black)
-  .setTimestamp()
   .setFooter(`Page ${page} of ${pages.length}`)
+  .setTimestamp()
   .setDescription(pages[page-1])
 
   message.channel.send(embed).then(msg => {
