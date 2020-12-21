@@ -493,7 +493,6 @@ function getAttachmentLinks(attachments) {
 
 if (message.content.toLowerCase() === 'account packages'){
   if(message.channel.type === 'dm'){
-  message.channel.send('<a:A_:789930401120124938><a:C_:789930467784130570><a:C_:789930467784130570><a:O_:789935677390979153><a:U_:789935780755013673><a:N_:789947839467225139><a:T_:789935759091695626><a:S_:789935740980953109>')
   message.channel.send(`Looking for packages that are available <a:Newloading:790047698995642429>
 ${message.author} Please stand by`)
     .then(sentMessage => sentMessage.delete({ timeout: 8000 })
@@ -512,9 +511,8 @@ ${message.author} Please stand by`)
       })
       .catch(() => {
         let uEmbed1 = new Discord.MessageEmbed()
-        let pages = [`
-        GTA V Social Club Modded Account !
-                 PC VERSION ONLY 
+        let pages = [`GTA V Social Club Modded Account !
+PC VERSION ONLY 
 <a:Rightanimated:790106527708217354> Tire 1 <a:Leftanimitedarrow:790106237676552273> 
         
 Details: 
@@ -569,7 +567,7 @@ let page = 1;
 const embed = new Discord.MessageEmbed()
   .setTitle('<a:A_:789930401120124938><a:C_:789930467784130570><a:C_:789930467784130570><a:O_:789935677390979153><a:U_:789935780755013673><a:N_:789947839467225139><a:T_:789935759091695626><a:S_:789935740980953109>')
   .setColor(colors.black)
-  .setFooter(`Page ${page} of ${pages.length} || Preact on either ⬅️ or ➡️ to flip between pages.`)
+  .setFooter(`Page ${page} of ${pages.length} || react on either ⬅️ or ➡️ to flip between pages.`)
   .setTimestamp()
   .setDescription(pages[page-1])
 
@@ -1226,6 +1224,131 @@ message.author.send({embed: embed})
 });
  }
 };
+// Break
+
+if (message.content.toLowerCase() === 'recovery packages'){
+  if(message.channel.type === 'dm'){
+  message.channel.send(`Looking for packages that are available <a:Newloading:790047698995642429>
+${message.author} Please stand by`)
+    .then(sentMessage => sentMessage.delete({ timeout: 8000 })
+   .catch(error => {
+    // Hnadler
+  }))
+  message.react('📦')
+  .then(() => {
+    message.channel.awaitMessages(response => response.content === '', {
+      max: 1,
+      time: 8000,
+      errors: ['time'],
+    })
+    .then((collected) => {
+        message.channel.send(`The collected message was: ${collected.first().content}`);
+      })
+      .catch(() => {
+        let uEmbed1 = new Discord.MessageEmbed()
+        let pages = [`__**STARTER RECOVERY PACK**__
+Details:
+>>> **•$300 Million GTA Online Money**
+**•1-120 Levels**
+•All Available Unlocks (Including Ones Below)
+•Unlock All Hairstyles
+•Unlock All Tattoos
+•Unlock All LSC Mods/Upgrades
+•Unlock All Weapon Tints
+•Unlock All Trophies/Heists/Heist Rewards
+\`Price: $10.00 USD\``,
+`__**BRONZE RECOVERY PACK**__
+Details: 
+>>> **•$600 Million GTA Online Money**
+**•1-250 Levels**
+•All Available Unlocks (Including Ones Below)
+•Unlock All Hairstyles
+•Unlock All Tattoos
+•Unlock All LSC Mods/Upgrades
+•Unlock All Weapon Tints
+•Unlock All Trophies/Heists/Heist Rewards 
+--------------------------
+•Unlock Bunker Research
+\`Price: $15.00 USD\``,
+`__**SILVER RECOVERY PACK**__
+Details:
+>>> **•$1 Billion GTA Online Money**
+**•1-420 Levels**
+•All Available Unlocks  (Including Ones Below)
+•Unlock All Hairstyles
+•Unlock All Tattoos
+•Unlock All LSC Mods/Upgrades
+•Unlock All Weapon Tints
+•Unlock All Trophies/Heists/Heist Rewards 
+--------------------------
+•Unlock Bunker Research
+--------------------------
+•CEO and Bike money clutter
+\`Price: $20.00 USD\``,
+`__**GOLD RECOVERY PACK**__
+Details:
+>>> **•Any amount of money + Unlimited re-fills**
+**•1-750 Levels**
+•All Available Unlocks  (Including Ones Below)
+•Unlock All Hairstyles
+•Unlock All Tattoos
+•Unlock All LSC Mods/Upgrades
+•Unlock All Weapon Tints
+•Unlock All Trophies/Heists/Heist Rewards
+--------------------------
+•Unlock Bunker Research 
+--------------------------
+•CEO and Bike money clutter 
+--------------------------
+• Unlock DLC & Holiday Content (Full)
+\`Price: $25.00 USD\``,
+`__**GTA 5 CASH UP (MONEY ONLY)**__
+Details:
+>>> •Need more CASH but not levels or RP?
+Get your  Cash up now!
+\ $10.00 USD  for 400 MILLION MEGA Cash!
+  $15.00 USD  for  700 MILLION ULTRA Cash! 
+  $20.00 USD  for  1.2   BILLION INSANE Cash!\``];
+let page = 1;
+const embed = new Discord.MessageEmbed()
+  .setTitle('<a:R_:789935721296691211><a:E_:789935154353274902><a:C_:789930467784130570><a:O_:789935677390979153><a:V_:789947840738230272><a:E_:789935154353274902><a:R_:789935721296691211><a:I_:789935223008788501><a:E_:789935154353274902>')
+  .setColor(colors.black)
+  .setFooter(`Page ${page} of ${pages.length} || react on either ⬅️ or ➡️ to flip between pages.`)
+  .setTimestamp()
+  .setDescription(pages[page-1])
+
+  message.channel.send(embed).then(msg => {
+    msg.react('⬅️').then( r => {
+      msg.react('➡️')
+
+      const backwardsFilter = (reaction, user) => reaction.emoji.name === ('⬅️') && user.id === message.author.id;
+      const forwardsFilter = (reaction, user) => reaction.emoji.name === ('➡️') && user.id === message.author.id;
+
+      const backwards = msg.createReactionCollector(backwardsFilter, { time: 5400000 });
+      const forwards = msg.createReactionCollector(forwardsFilter, { time: 5400000 });
+
+      backwards.on('collect', r => {
+        if (page === 1) return;
+        page--;
+        embed.setDescription(pages[page-1]);
+        embed.setFooter(`Page ${page} of ${pages.length}`);
+        msg.edit(embed)
+      })
+
+      forwards.on('collect', r => {
+        if (page === pages.length) return;
+        page++;
+        embed.setDescription(pages[page-1]);
+        embed.setFooter(`Page ${page} of ${pages.length}`);
+        msg.edit(embed)
+      
+    })});
+  });
+    });
+  });
+}
+}
+
 // Break
 if (message.content.toLowerCase() === 'debit or credit recovery') {
   if (message.channel.type === 'dm') {
