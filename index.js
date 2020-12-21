@@ -503,7 +503,7 @@ ${message.author} Please stand by`)
   .then(() => {
     message.channel.awaitMessages(response => response.content === '', {
       max: 1,
-      time: 100,
+      time: 8000,
       errors: ['time'],
     })
     .then((collected) => {
