@@ -493,7 +493,7 @@ function getAttachmentLinks(attachments) {
 
 if (message.content.toLowerCase() === 'account packages'){
   if(message.channel.type === 'dm'){
-  message.channel.send(`Looking for packages that are available <a:Loading:705280596217430019>
+  message.channel.send(`Looking for packages that are available <a:Newloading:790047698995642429>
 ${message.author} Please stand by`)
     .then(sentMessage => sentMessage.delete({ timeout: 8000 })
    .catch(error => {
@@ -509,8 +509,8 @@ ${message.author} Please stand by`)
     .then((collected) => {
         message.channel.send(`The collected message was: ${collected.first().content}`);
       })
-      let uEmbed1 = new Discord.MessageEmbed()
       .catch(() => {
+        let uEmbed1 = new Discord.MessageEmbed()
         let pages = [`GTA V Social Club Modded Account !
                                 PC VERSION ONLY 
 <a:Rightanimated:790106527708217354> Tire 1 <a:Leftanimitedarrow:790106237676552273> 
