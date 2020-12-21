@@ -509,41 +509,57 @@ if (message.content.toLowerCase() === 'account packages'){
 let embed = new Discord.MessageEmbed()
 .setColor(colors.blue)
 .setTitle('__**Modded Account Options Available**__')
-.addField(`GTA V Social Club Modded Account!
-    PC VERSION ONLY > Tier 1 <
-•$500 Million GTA Online Money
-•120-250 Levels
-•Everything Unlocked/ Max Stats 
-•GTA V Game Included!
-`,
-`Price: $25`)
-   .addField(`GTA V Social Club Modded Account!
-   PC VERSION ONLY > Tier 2 <
-•$1 Billion GTA Online Money
-•120-350 Levels
-•Everything Unlocked/ Max Stats 
-•GTA V Game Included!`,
-`Price: $30`)
-  .addField(`GTA V Social Club Modded Account!
-  PC VERSION ONLY > Tier 3 <
-•$1.5 Billion GTA Online Money
-•120-550 Levels
-•Everything Unlocked/ Max Stats 
-•GTA V Game Included!`,
-`Price: $35`)
-  .addField(`GTA V Social Club Modded Account!
-  PC VERSION ONLY > Tier 4 <
-•$2 Billion GTA Online Money
-•120-850 Levels
-•Everything Unlocked/ Max Stats
-•GTA V Game Included!`,
-`Price: $40`)
-  .addField(` LOOKING FOR A CUSTOM MADE ACCOUNT?
+.addField(`GTA V Social Club Modded Account !
+PC VERSION ONLY 
+<a:Rightanimated:790106527708217354> Tire 1 <a:Leftanimitedarrow:790106237676552273> 
 
-  Custom LVL: 1 - 2000
-  Custom Cash: 1 Million - 2 Billion
-  Custom Unlocks: Stats<CLothes<Hair<Outfits<Tatto's`, 
-`Prices Change Depending on What You Ask For.`)
+Details: 
+>>> •Brand new new account (Un-Modded).
+•GTA V Game Included!.
+•Full Access Account : You can change, Email, Password, Username.
+`,
+'```Price: $15.00 USD```')
+   .addField(`GTA V Social Club Modded Account !
+   PC VERSION ONLY 
+   <a:Rightanimated:790106527708217354> Tire 2 <a:Leftanimitedarrow:790106237676552273>
+
+Details: 
+>>> •Brand new new account + Starter Recovery Pack.
+•GTA V Game Included!.
+•Full Access Account : You can change, Email, Password, Username.`,
+'``Price: $25.00 USD``')
+  .addField(`GTA V Social Club Modded Account !
+  PC VERSION ONLY 
+  <a:Rightanimated:790106527708217354> Tire 3 <a:Leftanimitedarrow:790106237676552273>
+
+Details: 
+>>> •Brand new new account + Bronze Recovery Pack.
+•GTA V Game Included!.
+•Full Access Account : You can change, Email, Password, Username.`,
+'```Price: $30.00 USD```')
+  .addField(`GTA V Social Club Modded Account !
+  PC VERSION ONLY 
+  <a:Rightanimated:790106527708217354> Tire 4 <a:Leftanimitedarrow:790106237676552273>
+
+Details: 
+>>> •Brand new new account + Silver Recovery Pack.
+•GTA V Game Included!.
+•Full Access Account : You can change, Email, Password, Username.`,
+'```Price: $35.00 USD```')
+  .addField(` GTA V Social Club Modded Account !
+  PC VERSION ONLY 
+  <a:Rightanimated:790106527708217354> Tire 5 <a:Leftanimitedarrow:790106237676552273>
+Details: 
+>>> •Brand new new account + Gold Recovery Pack.
+•GTA V Game Included!.
+•Full Access Account : You can change, Email, Password, Username.`,
+'```Price: $40.00 USD```')
+.addField(`<a:Rightanimated:790106527708217354> LOOKING FOR A CUSTOM MADE ACCOUNT? <a:Leftanimitedarrow:790106237676552273>
+
+Custom LVL: 1 - 2000
+Custom Cash: 1 Million - 2 Billion
+Custom Unlocks: Stats<CLothes<Hair<Outfits<Tatto's`,
+'```Price: **Prices Change Depending on What You Ask For.**```')
 .setFooter(`Live chat bot | At your service ${message.author.username}`, 'https://cdn.discordapp.com/attachments/696241284352049193/698835003718762576/livechat.gif')
 .setTimestamp()
 message.author.send({embed: embed})
@@ -562,8 +578,8 @@ if (message.content.toLowerCase() === 'debit or credit account') {
     .setThumbnail('https://cdn.discordapp.com/attachments/704209584071508079/784519798007529472/JD-11-512.png')
     .setTitle(`Credit or Debit Payment`)
     .addField(`.`,`After you have done the payment please come back to this message and react to one of the emojies.
-    <:acceptt:711139565569572885> = Confirm Purchase
-    <:reject:711139517876273224> = Cancel process`)
+    <:_Check:790045951318294558> = Confirm Purchase
+    <:_Cross:790045966199029760> = Cancel process`)
     .setDescription(`Please go to the page to choose which Modded Account Pack you want and you can pay afterwards by pressing on the "BUY NOW" Blue button https://knight-shop.webnode.com/modded-account-page-only/`)
     .setColor('#0070FF')
     .setTimestamp()
@@ -605,8 +621,8 @@ if (message.content.toLowerCase() === 'amazon gift card') {
     .setTitle(`Amzon Payment Method`)
     .setThumbnail('https://cdn.discordapp.com/attachments/704209584071508079/784675711717867570/amazon_2.png')
     .addField(`.`,`After you have done the payment please come back to this message and react to one of the emojies.
-    <:acceptt:711139565569572885> = Confirm Purchase
-    <:reject:711139517876273224> = Cancel process`)
+    <:_Check:790045951318294558> = Confirm Purchase
+    <:_Cross:790045966199029760> = Cancel process`)
     .setDescription(`Please send us the gift card code is 14 or 15 characters or send us a picture of the gift card code to this **email: Knight.shop.team@gamil.com** 
 __Please make sure that is redeemable in the US and that the gift card has the right amount.__`)
     .setColor('#0070FF')
@@ -651,8 +667,8 @@ if (message.content.toLowerCase() === 'paypal') {
     .setTitle(`PayPal Payment`)
     .setThumbnail('https://cdn.discordapp.com/attachments/704209584071508079/784517982851301416/Paypal_NNN.png')
     .addField(`.`,`After you have done the payment please come back to this message and react to one of the emojies.
-    <:acceptt:711139565569572885> = Confirm Purchase
-    <:reject:711139517876273224> = Cancel process`)
+    <:_Check:790045951318294558> = Confirm Purchase
+    <:_Cross:790045966199029760> = Cancel process`)
     .setDescription(`Send the money here https://paypal.me/KnightShopTeam?locale.x=en_US **Please make sure to send the right amount of money otherwise we will not be able to process with your request.**`)
     .setFooter('Live chat with agent', 'https://cdn.discordapp.com/attachments/696241284352049193/698835003718762576/livechat.gif')
     .setColor('#0070FF')
@@ -1101,53 +1117,75 @@ if (message.content.toLowerCase() === 'recovery packages'){
 let embed = new Discord.MessageEmbed()
 .setColor(colors.blue)
 .setTitle('__**Recovery Options Available**__')
-.addField(`STARTER RECOVERY PACK
-•$300 Million GTA Online Money
-•1-120 Levels
-•All Available Unlocks  (Including Ones Below)
+.addField(`__**STARTER RECOVERY PACK**__
+
+Details:
+>>> **•$300 Million GTA Online Money**
+**•1-120 Levels**
+•All Available Unlocks (Including Ones Below)
 •Unlock All Hairstyles
 •Unlock All Tattoos
 •Unlock All LSC Mods/Upgrades
 •Unlock All Weapon Tints
 •Unlock All Trophies/Heists/Heist Rewards`,
-`Price: $5.00`)
-.addField(`BRONZE RECOVERY
-•$600 Million GTA Online Money
-•1-250 Levels
+'```Price: $10.00 USD```')
+.addField(`__**BRONZE RECOVERY PACK**__
+
+Details: 
+>>> **•$600 Million GTA Online Money**
+**•1-250 Levels**
+•All Available Unlocks (Including Ones Below)
+•Unlock All Hairstyles
+•Unlock All Tattoos
+•Unlock All LSC Mods/Upgrades
+•Unlock All Weapon Tints
+•Unlock All Trophies/Heists/Heist Rewards 
+--------------------------
+•Unlock Bunker Research`,
+'```Price: $15.00 USD```')
+.addField(`__**SILVER RECOVERY PACK**__
+
+Details:
+>>> **•$1 Billion GTA Online Money**
+**•1-420 Levels**
 •All Available Unlocks  (Including Ones Below)
 •Unlock All Hairstyles
 •Unlock All Tattoos
 •Unlock All LSC Mods/Upgrades
 •Unlock All Weapon Tints
-•Unlock All Trophies/Heists/Heist Rewards`,
-`Price: $7.50`)
-.addField(`SILVER RECOVERY
-•$1 Billion GTA Online Money
-•1-420 Levels
+•Unlock All Trophies/Heists/Heist Rewards 
+--------------------------
+•Unlock Bunker Research
+--------------------------
+•CEO and Bike money clutter`,
+'```Price: $20.00 USD```')
+.addField(`__**GOLD RECOVERY PACK**__
+
+Details:
+>>> **•Any amount of money + Unlimited re-fills**
+**•1-750 Levels**
 •All Available Unlocks  (Including Ones Below)
 •Unlock All Hairstyles
 •Unlock All Tattoos
 •Unlock All LSC Mods/Upgrades
 •Unlock All Weapon Tints
-•Unlock All Trophies/Heists/Heist Rewards`,
-`Price: $10.00`)
-.addField(`GOLD RECOVERY
-•$1.5 Billion GTA Online Money
-•1-750 Levels
-•All Available Unlocks  (Including Ones Below)
-•Unlock All Hairstyles
-•Unlock All Tattoos
-•Unlock All LSC Mods/Upgrades
-•Unlock All Weapon Tints
-•Unlock All Trophies/Heists/Heist Rewards`,
-`Price: $12.50`)
-.addField(`GTA 5 CASH UP (MONEY ONLY)
-*Need more CASH but not levels or RP?
+•Unlock All Trophies/Heists/Heist Rewards
+--------------------------
+•Unlock Bunker Research 
+--------------------------
+•CEO and Bike money clutter 
+--------------------------
+• Unlock DLC & Holiday Content (Full)`,
+'```Price: $25.00 USD```')
+.addField(`__**GTA 5 CASH UP (MONEY ONLY)**__
+
+Details:
+>>> •Need more CASH but not levels or RP?
 Get your  Cash up now!`, 
-`Price Options: 
-$5.00 USD  for 400 MILLION MEGA Cash!
-$7.50 USD  for  700 MILLION ULTRA Cash!
-$10.00 USD  for  1.2   BILLION INSANE Cash!`)
+'Price Options:\n' +
+'```$10.00 USD```  for 400 MILLION MEGA Cash!\n' +
+'```$15.00 USD```  for  700 MILLION ULTRA Cash!\n' +
+'```$20.00 USD```  for  1.2   BILLION INSANE Cash!\n')
 .setFooter(`Live chat bot | At your service ${message.author.username}`, 'https://cdn.discordapp.com/attachments/696241284352049193/698835003718762576/livechat.gif')
 .setTimestamp()
 message.author.send({embed: embed})
@@ -1166,8 +1204,8 @@ if (message.content.toLowerCase() === 'debit or credit recovery') {
     .setThumbnail('https://cdn.discordapp.com/attachments/704209584071508079/784519798007529472/JD-11-512.png')
     .setTitle(`Credit or Debit Payment`)
     .addField(`.`,`After you have done the payment please come back to this message and react to one of the emojies.
-    <:acceptt:711139565569572885> = Confirm Purchase
-    <:reject:711139517876273224> = Cancel process`)
+    <:_Check:790045951318294558> = Confirm Purchase
+    <:_Cross:790045966199029760> = Cancel process`)
     .setDescription(`Please go to the page to choose which Modded Account Pack you want and you can pay afterwards by pressing on the "BUY NOW" Blue button https://knight-shop.webnode.com/recovery-page-only/`)
     .setColor('#0070FF')
     .setTimestamp()
