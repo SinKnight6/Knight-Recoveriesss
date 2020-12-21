@@ -489,7 +489,7 @@ function getAttachmentLinks(attachments) {
 }
 // Break
 if (message.content.toLowerCase() === 'account packages'){
-  if(message.channel.type === 'dm'){
+
     message.author.send('Bot is typing <a:Typing_:790032798580867084>')
       .then(sentMessage => sentMessage.delete({ timeout: 3000 })
      .catch(error => {
@@ -568,7 +568,7 @@ message.author.send({embed: embed})
    }));
  });
 });
- }
+ 
 };
 // Break
 
