@@ -488,98 +488,19 @@ function getAttachmentLinks(attachments) {
     .map(attachment => attachment.url);
 }
 // Break
-if (message.content.toLowerCase() === 'account packages'){
-  if(message.channel.type === 'dm'){
-    message.author.send('Bot is typing <a:Typing_:790032798580867084>')
-      .then(sentMessage => sentMessage.delete({ timeout: 3000 })
-     .catch(error => {
-      // Hnadler
-    }))
-    message.react('📦')
-    .then(() => {
-      message.channel.awaitMessages(response => response.content === '', {
-        max: 1,
-        time: 3000,
-        errors: ['time'],
-      })
-      .then((collected) => {
-          message.channel.send(`The collected message was: ${collected.first().content}`);
-        })
-        .catch(() => {
-let embed = new Discord.MessageEmbed()
-.setColor(colors.blue)
-.setTitle('__**Modded Account Options Available**__')
-.addField(`GTA V Social Club Modded Account !
-PC VERSION ONLY 
-<a:Rightanimated:790106527708217354> Tire 1 <a:Leftanimitedarrow:790106237676552273> 
 
-Details: 
->>> •Brand new new account (Un-Modded).
-•GTA V Game Included!.
-•Full Access Account : You can change, Email, Password, Username.
-`,
-'```Price: $15.00 USD```')
-   .addField(`GTA V Social Club Modded Account !
-   PC VERSION ONLY 
-   <a:Rightanimated:790106527708217354> Tire 2 <a:Leftanimitedarrow:790106237676552273>
-
-Details: 
->>> •Brand new new account + Starter Recovery Pack.
-•GTA V Game Included!.
-•Full Access Account : You can change, Email, Password, Username.`,
-'``Price: $25.00 USD``')
-  .addField(`GTA V Social Club Modded Account !
-  PC VERSION ONLY 
-  <a:Rightanimated:790106527708217354> Tire 3 <a:Leftanimitedarrow:790106237676552273>
-
-Details: 
->>> •Brand new new account + Bronze Recovery Pack.
-•GTA V Game Included!.
-•Full Access Account : You can change, Email, Password, Username.`,
-'```Price: $30.00 USD```')
-  .addField(`GTA V Social Club Modded Account !
-  PC VERSION ONLY 
-  <a:Rightanimated:790106527708217354> Tire 4 <a:Leftanimitedarrow:790106237676552273>
-
-Details: 
->>> •Brand new new account + Silver Recovery Pack.
-•GTA V Game Included!.
-•Full Access Account : You can change, Email, Password, Username.`,
-'```Price: $35.00 USD```')
-  .addField(` GTA V Social Club Modded Account !
-  PC VERSION ONLY 
-  <a:Rightanimated:790106527708217354> Tire 5 <a:Leftanimitedarrow:790106237676552273>
-Details: 
->>> •Brand new new account + Gold Recovery Pack.
-•GTA V Game Included!.
-•Full Access Account : You can change, Email, Password, Username.`,
-'```Price: $40.00 USD```')
-.addField(`<a:Rightanimated:790106527708217354> LOOKING FOR A CUSTOM MADE ACCOUNT? <a:Leftanimitedarrow:790106237676552273>
-
-Custom LVL: 1 - 2000
-Custom Cash: 1 Million - 2 Billion
-Custom Unlocks: Stats<CLothes<Hair<Outfits<Tatto's`,
-'```Price: **Prices Change Depending on What You Ask For.**```')
-.setFooter(`Live chat bot | At your service ${message.author.username}`, 'https://cdn.discordapp.com/attachments/696241284352049193/698835003718762576/livechat.gif')
-.setTimestamp()
-message.author.send({embed: embed})
-.then(sentMessage => sentMessage.delete({ timeout: 7200000 })
-.catch(error => {
-   }));
- });
-});
- }
-};
 // Break
 
-if (message.content.toLowerCase() === 'impulse troubleshoot'){
-  
-  message.channel.send(`Looking for troubleshooting solutions 
+if (message.content.toLowerCase() === 'account packages'){
+  if(message.channel.type === 'dm'){
+  message.channel.send('<a:A_:789930401120124938><a:C_:789930467784130570><a:C_:789930467784130570><a:O_:789935677390979153><a:U_:789935780755013673><a:N_:789947839467225139><a:T_:789935759091695626><a:S_:789935740980953109>')
+  message.channel.send(`Looking for packages that are available <a:Loading:705280596217430019>
 ${message.author} Please stand by`)
     .then(sentMessage => sentMessage.delete({ timeout: 8000 })
    .catch(error => {
     // Hnadler
   }))
+  message.react('📦')
   .then(() => {
     message.channel.awaitMessages(response => response.content === '', {
       max: 1,
@@ -590,67 +511,62 @@ ${message.author} Please stand by`)
         message.channel.send(`The collected message was: ${collected.first().content}`);
       })
       .catch(() => {
-        let pages = [`**__If you find yourself with an Infinite Loading Screen while trying to load into online, try the following steps__** :
+        let pages = [`GTA V Social Club Modded Account !
+PC VERSION ONLY 
+<a:Rightanimated:790106527708217354> Tire 1 <a:Leftanimitedarrow:790106237676552273> 
+        
+Details: 
+>>> •Brand new new account (Un-Modded).
+•GTA V Game Included!.
+•Full Access Account : You can change, Email, Password, Username.
+\`Price: $15.00 USD\``,
+`GTA V Social Club Modded Account !
+PC VERSION ONLY 
+<a:Rightanimated:790106527708217354> Tire 2 <a:Leftanimitedarrow:790106237676552273>
+   
+Details: 
+>>> •Brand new new account + Starter Recovery Pack.
+•GTA V Game Included!.
+•Full Access Account : You can change, Email, Password, Username.
+\`Price: $25.00 USD\``,
+`GTA V Social Club Modded Account !
+PC VERSION ONLY 
+<a:Rightanimated:790106527708217354> Tire 3 <a:Leftanimitedarrow:790106237676552273>
 
-\`Step 1: Load into story mode and inject the menu.
-Step 2: Join a solo online session
-Step 3: Use the session starter to find a public lobby
-Step 4: Script host kick anyone in that lobby whilst in the clouds\``,
-`
-**__If you want to change session__**
+Details: 
+>>> •Brand new new account + Bronze Recovery Pack.
+•GTA V Game Included!.
+•Full Access Account : You can change, Email, Password, Username.
+\`Price: $30.00 USD\``,
+`GTA V Social Club Modded Account !
+PC VERSION ONLY 
+<a:Rightanimated:790106527708217354> Tire 4 <a:Leftanimitedarrow:790106237676552273>
 
-\`use Impulse's Session Starter!\``,
-`
-**__failed to find OEURI__** :
+Details: 
+>>> •Brand new new account + Silver Recovery Pack.
+•GTA V Game Included!.
+•Full Access Account : You can change, Email, Password, Username.
+\`Price: $35.00 USD\``,
+`GTA V Social Club Modded Account !
+PC VERSION ONLY 
+<a:Rightanimated:790106527708217354> Tire 5 <a:Leftanimitedarrow:790106237676552273>
+Details: 
+>>> •Brand new new account + Gold Recovery Pack.
+•GTA V Game Included!.
+•Full Access Account : You can change, Email, Password, Username.
+\`Price: $40.00 USD\``,
+`<a:Rightanimated:790106527708217354> LOOKING FOR A CUSTOM MADE ACCOUNT? <a:Leftanimitedarrow:790106237676552273>
 
-\`Issue on steam version only that can be ignored(its RID related and can intefer with rid spoofing)\``,
-`
-**__If you can't receive CEO Invites__**
-
-\`disable your "Kick" Protection under Protection --> Script Events --> Kicks\``,
-`
-**__Gifting Vehicles__** :
-
-\`Target must have a full garage, spawn the car with "Gift Vehicle" enabled, then let the player swap one car of the full garage with the gifted car. Beware that those cars cannot be sold.\``,
-`
-**__Crash Troubleshooting__** :
-
-\`1. Check if you have the newest Impulse Version. If you aren't sure, redownload the files on www.impulse.one/
-
-2. Check your Graphics Card Driver as those are a common reason for crashing.
-
-3. Try deleting your Impulse Folder (Documents/Impulse). An alternative is just to rename your existing Impulse Folder.
-
-4. Make sure that you have a clean GTA Install, delete every file that isnt from GTA V.
-
-5. Close Overlays for example Discord, see if that changes anything.
-
-6. Make sure you have your Window Settings on "Borderless" or "Windowed"
-
-7. Make sure you inject in Singleplayer when using Xenos!\``,
-`
-**__For auth errors, saying something along the lines of 'failed to connect to auth server', please try the following solutions__** ;
-
-\`- Check you are downloading/using newest versions 1.0.5 (Essential) or 1.1.5 (Standard/VIP) You may need to clear the cache/history in 
- browser, to remove old version, as they can remain in your system memory.
-
-- If you use a VPN, try to change servers and login again.
-
-- Restart your router, PC, and/or release your current IP using CMD. (https://www.tp-link.com/us/support/faq/840/)\``,
-`
-**__Manual Troubleshooting__** :
-
-\`1. Make sure that you use the latest version of Impulse! Redownload files if necessary on https://impulse.one/download.php
-2. Try both ways of injecting (Auto-Injector & Xenos)
-3. If you have trouble gameplay-wise, try to disable some Script Protections that suit your problem!
-For example: I can't receive any Invites to other players' CEO --> Disable the "Invites" Protection under Protection --> Script Protection\``,
-`
-\`Steam verify integrity of game files tutorial 
-https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335\`
-`];
+Details:
+>>> •Custom LVL: 1 - 2000
+•Custom Cash: 1 Million - 2 Billion
+•Custom Unlocks: Stats<CLothes<Hair<Outfits<Tatto's
+\`Price: **Prices Change Depending on What You Ask For.**\``];
 let page = 1;
 const embed = new Discord.MessageEmbed()
-  .setColor(colors.orange)
+  .setTitle('<a:A_:789930401120124938><a:C_:789930467784130570><a:C_:789930467784130570><a:O_:789935677390979153><a:U_:789935780755013673><a:N_:789947839467225139><a:T_:789935759091695626><a:S_:789935740980953109>','Preact on either ⬅️ or ➡️ to flip between pages.')
+  .setColor(colors.black)
+  .setTimestamp()
   .setFooter(`Page ${page} of ${pages.length}`)
   .setDescription(pages[page-1])
 
@@ -670,7 +586,6 @@ const embed = new Discord.MessageEmbed()
         embed.setDescription(pages[page-1]);
         embed.setFooter(`Page ${page} of ${pages.length}`);
         msg.edit(embed)
-        r.users.remove(r.users.cache.filter(u => u === message.author).first());
       })
 
       forwards.on('collect', r => {
@@ -679,14 +594,13 @@ const embed = new Discord.MessageEmbed()
         embed.setDescription(pages[page-1]);
         embed.setFooter(`Page ${page} of ${pages.length}`);
         msg.edit(embed)
-        r.users.remove(r.users.cache.filter(u => u === message.author).first());
       
     })});
   });
     });
   });
 }
-
+}
 
 // Break
 if (message.content.toLowerCase() === 'debit or credit account') {
